@@ -1,7 +1,7 @@
 .hero-slider {
   height: calc(100vh - 85px);
   min-height: 600px;
-  background-color: #222222;
+  background-color: #4C3C30; /* Earthy dark brown base from logo */
 }
 
 .carousel-inner,
@@ -25,7 +25,7 @@
   bottom: 0;
   background: linear-gradient(
     to right,
-    rgba(34, 34, 34, 0.85),
+    rgba(76, 60, 48, 0.85), /* Adjusted overlay to match brown tone */
     rgba(0, 0, 0, 0.6)
   );
 }
@@ -59,15 +59,15 @@
   opacity: 0;
 }
 
-/* Premium Buttons - Fixed to Logo Maroon */
+/* Premium Buttons - Updated to Vibrant Red from Chilli in logo */
 .btn-primary-custom {
-  background-color: #711b3c;
+  background-color: #B9232A; /* Vibrant Chilli Red */
   color: white;
   padding: 12px 30px;
   border-radius: 30px;
   font-weight: 600;
   text-decoration: none;
-  border: 2px solid #711b3c;
+  border: 2px solid #B9232A;
   transition: all 0.3s ease;
   opacity: 0;
   display: inline-block;
@@ -75,8 +75,8 @@
 
 .btn-primary-custom:hover {
   background-color: transparent;
-  color: #711b3c;
-  box-shadow: 0 5px 15px rgba(113, 27, 60, 0.3);
+  color: #B9232A;
+  box-shadow: 0 5px 15px rgba(185, 35, 42, 0.3);
 }
 
 .btn-outline-custom {
@@ -95,7 +95,7 @@
 
 .btn-outline-custom:hover {
   background-color: white;
-  color: #222222;
+  color: #4C3C30; /* Adjusted hover text color */
 }
 
 /* CSS Animations */
@@ -153,7 +153,7 @@
   padding: 80px 0;
 }
 .section-title {
-  color: #222222;
+  color: #4C3C30; /* Updated to logo dark brown */
   font-weight: 700;
   margin-bottom: 15px;
   position: relative;
@@ -164,7 +164,7 @@
   position: absolute;
   width: 50%;
   height: 3px;
-  background-color: #711b3c;
+  background-color: #B9232A; /* Updated to logo chilli red */
   bottom: -5px;
   left: 0;
 }
@@ -191,17 +191,17 @@
   position: absolute;
   bottom: -20px;
   right: 20px;
-  background: #711b3c;
+  background: #B9232A; /* Updated to logo chilli red */
   color: white;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
-  box-shadow: 0 5px 15px rgba(113, 27, 60, 0.3);
+  box-shadow: 0 5px 15px rgba(185, 35, 42, 0.3);
 }
 
 /* Services / Categories Section */
 .bg-light-grey {
-  background-color: #f8f9fa;
+  background-color: #FAFAFA; /* Slightly warmer light background */
 }
 .service-card {
   border: none;
@@ -230,22 +230,22 @@
   transform: scale(1.1);
 }
 .service-title {
-  color: #222222;
+  color: #4C3C30; /* Updated to logo dark brown */
   font-weight: 600;
   font-size: 1.25rem;
 }
 .service-link {
-  color: #222222;
+  color: #4C3C30; /* Updated to logo dark brown */
   font-weight: 600;
   text-decoration: none;
   transition: color 0.3s;
 }
 .service-link:hover {
-  color: #711b3c;
+  color: #DF9B2A; /* Updated to logo turmeric orange/yellow */
 }
 .btn-quote-outline {
-  color: #711b3c;
-  border: 1px solid #711b3c;
+  color: #B9232A; /* Updated to logo chilli red */
+  border: 1px solid #B9232A;
   border-radius: 20px;
   padding: 5px 15px;
   font-size: 0.9rem;
@@ -253,7 +253,7 @@
   text-decoration: none;
 }
 .btn-quote-outline:hover {
-  background-color: #711b3c;
+  background-color: #B9232A;
   color: white;
 }
 
@@ -272,8 +272,8 @@
 .feature-icon {
   width: 70px;
   height: 70px;
-  background-color: rgba(113, 27, 60, 0.1);
-  color: #711b3c;
+  background-color: rgba(185, 35, 42, 0.1); /* Updated to logo chilli red */
+  color: #B9232A;
   border-radius: 50%;
   display: inline-flex;
   align-items: center;
@@ -283,11 +283,11 @@
   transition: all 0.3s ease;
 }
 .feature-box:hover .feature-icon {
-  background-color: #711b3c;
+  background-color: #B9232A;
   color: #ffffff;
 }
 .feature-title {
-  color: #222222;
+  color: #4C3C30; /* Updated to logo dark brown */
   font-weight: 600;
   margin-bottom: 10px;
 }
@@ -303,11 +303,11 @@
 .product-card:hover {
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
   transform: translateY(-5px);
-  border-color: rgba(113, 27, 60, 0.2);
+  border-color: rgba(223, 155, 42, 0.4); /* Updated hover border to turmeric yellow */
 }
 .product-img-wrapper {
   height: 250px;
-  background-color: #f8f9fa;
+  background-color: #FAFAFA;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -327,33 +327,33 @@
   position: absolute;
   top: 15px;
   left: 15px;
-  background-color: #711b3c;
-  color: white;
+  background-color: #DF9B2A; /* Updated badge to turmeric yellow */
+  color: #4C3C30; /* Dark brown text for contrast */
   padding: 4px 12px;
   font-size: 0.75rem;
-  font-weight: 600;
+  font-weight: 700;
   border-radius: 20px;
   z-index: 2;
 }
 .product-title {
-  color: #222222;
+  color: #4C3C30; /* Updated to logo dark brown */
   font-weight: 700;
   font-size: 1.15rem;
   margin-bottom: 10px;
 }
 .view-details-link {
-  color: #222222;
+  color: #4C3C30; /* Updated to logo dark brown */
   font-weight: 600;
   font-size: 0.9rem;
   text-decoration: none;
   transition: color 0.3s;
 }
 .view-details-link:hover {
-  color: #711b3c;
+  color: #B9232A; /* Updated hover link to chilli red */
 }
 .btn-call {
-  border: 2px solid #711b3c;
-  color: #711b3c;
+  border: 2px solid #576A3D; /* Updated to logo leaf green */
+  color: #576A3D;
   background: transparent;
   display: inline-flex;
   align-items: center;
@@ -364,20 +364,20 @@
   transition: all 0.3s ease;
 }
 .btn-call:hover {
-  background-color: #711b3c;
+  background-color: #576A3D;
   color: white;
 }
 .btn-quote-full {
-  background-color: #222222;
+  background-color: #4C3C30; /* Updated button background to logo dark brown */
   color: white;
   font-weight: 600;
   border-radius: 8px;
   transition: all 0.3s ease;
-  border: 2px solid #222222;
+  border: 2px solid #4C3C30;
 }
 .btn-quote-full:hover {
   background-color: transparent;
-  color: #222222;
+  color: #4C3C30;
 }
 
 /* Brands Section Styling */
@@ -410,7 +410,7 @@
   transform: scale(1.1);
 }
 .blog-card:hover .blog-title a {
-  color: #711b3c !important;
+  color: #B9232A !important; /* Updated to logo chilli red */
 }
 .blog-card:hover .btn-read-more i {
   transform: translateX(5px);
@@ -441,7 +441,7 @@
 .brands-slider-section {
   overflow: hidden;
   position: relative;
-  background: #f8f9fa;
+  background: #FAFAFA; /* Matched bg-light-grey */
   padding: 60px 0;
 }
 
@@ -519,11 +519,11 @@
 .transition-up:hover {
   transform: translateY(-10px);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08) !important;
-  border-color: rgba(113, 27, 60, 0.2);
+  border-color: rgba(223, 155, 42, 0.3); /* Updated border hover to turmeric yellow */
 }
 
 .custom-input {
-  background-color: #f8f9fa;
+  background-color: #FAFAFA;
   border: 1px solid #e9ecef;
   padding: 12px 15px;
   border-radius: 8px;
@@ -532,8 +532,8 @@
 }
 .custom-input:focus {
   background-color: #ffffff;
-  border-color: #711b3c;
-  box-shadow: 0 0 0 0.25rem rgba(113, 27, 60, 0.1);
+  border-color: #576A3D; /* Updated focus border to leaf green */
+  box-shadow: 0 0 0 0.25rem rgba(87, 106, 61, 0.1);
   outline: none;
 }
 .contact-info-list span {
@@ -552,8 +552,8 @@
 
 .premium-input:focus {
   background-color: #ffffff;
-  border-color: #711b3c;
-  box-shadow: 0 0 0 4px rgba(113, 27, 60, 0.1);
+  border-color: #B9232A; /* Updated to logo chilli red */
+  box-shadow: 0 0 0 4px rgba(185, 35, 42, 0.1);
   outline: none;
 }
 
@@ -565,23 +565,23 @@
 
 .premium-input:focus ~ label,
 .premium-input:not(:placeholder-shown) ~ label {
-  color: #711b3c;
+  color: #B9232A; /* Updated to logo chilli red */
   font-weight: 600;
 }
 
-/* Maroon Glow Button */
+/* Maroon Glow Button - Updated to Chilli Red Gradient */
 .btn-maroon-glow {
-  background: linear-gradient(135deg, #711b3c 0%, #90234d 100%);
+  background: linear-gradient(135deg, #B9232A 0%, #8A151C 100%); /* Red to darker red */
   color: #ffffff;
   border: none;
   border-radius: 10px;
   transition: all 0.4s ease;
-  box-shadow: 0 8px 20px rgba(113, 27, 60, 0.25);
+  box-shadow: 0 8px 20px rgba(185, 35, 42, 0.25);
 }
 
 .btn-maroon-glow:hover {
   transform: translateY(-3px);
-  box-shadow: 0 12px 25px rgba(113, 27, 60, 0.4);
+  box-shadow: 0 12px 25px rgba(185, 35, 42, 0.4);
   color: #ffffff;
 }
 
@@ -590,11 +590,11 @@
 }
 
 .custom-inquiry-section {
-  background-color: #f8f9fa;
+  background-color: #FAFAFA;
   padding: 80px 0;
 }
 .custom-dark-card {
-  background-color: #0f172a;
+  background-color: #4C3C30; /* Updated to logo dark brown */
   border-radius: 0 8px 8px 0;
   height: 100%;
   position: relative;
@@ -622,7 +622,7 @@
   color: rgba(255, 255, 255, 0.5) !important;
 }
 .custom-dark-input:focus {
-  border-color: #d4af37 !important;
+  border-color: #DF9B2A !important; /* Updated to turmeric yellow */
   box-shadow: none !important;
   outline: none;
 }
@@ -633,16 +633,16 @@
   overflow: hidden;
 }
 .btn-golden {
-  background-color: #dfb122;
-  color: #111;
+  background-color: #DF9B2A; /* Updated to turmeric yellow */
+  color: #4C3C30; /* Dark brown text for contrast */
   font-weight: 700;
   letter-spacing: 0.5px;
   border: none;
   transition: all 0.3s ease;
 }
 .btn-golden:hover {
-  background-color: #c99e1a;
-  color: #000;
+  background-color: #c98b25; /* Darker yellow */
+  color: #fff;
 }
 @media (max-width: 991px) {
   .map-wrapper {
