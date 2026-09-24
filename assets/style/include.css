@@ -2,7 +2,7 @@
    TOPBAR STYLING
    ===================================== */
 .topbar {
-  background-color: #711b3c; /* Brand Maroon */
+  background-color: #4C3C30; /* Updated to Logo Dark Brown */
   color: #ffffff;
   font-size: 0.9rem;
 }
@@ -31,7 +31,7 @@
 
 .topbar-right a:hover {
   background: #ffffff;
-  color: #711b3c;
+  color: #4C3C30; /* Updated hover text to Logo Dark Brown */
   transform: translateY(-2px);
 }
 
@@ -56,7 +56,7 @@
 
 /* Navigation Links */
 .custom-navbar .nav-link {
-  color: #222222 !important; /* Brand Charcoal */
+  color: #4C3C30 !important; /* Updated link color to Logo Dark Brown */
   font-weight: 600;
   font-size: 16px;
   margin: 0 12px;
@@ -64,10 +64,10 @@
   transition: color 0.3s ease;
 }
 
-/* Hover & Active State (Maroon Highlight) */
+/* Hover & Active State (Chilli Red Highlight) */
 .custom-navbar .nav-link:hover,
 .custom-navbar .nav-link.active {
-  color: #711b3c !important; /* Brand Maroon */
+  color: #B9232A !important; /* Updated to Logo Chilli Red */
 }
 
 /* Smooth Bottom Border Animation */
@@ -78,7 +78,7 @@
   height: 3px;
   bottom: -5px;
   left: 0;
-  background-color: #711b3c;
+  background-color: #B9232A; /* Updated underline to Logo Chilli Red */
   transition: width 0.3s ease;
   border-radius: 2px;
 }
@@ -110,33 +110,33 @@
 .dropdown-item {
   font-weight: 500;
   padding: 8px 20px;
-  color: #444;
+  color: #4C3C30; /* Updated dropdown text to Dark Brown */
   transition: all 0.2s;
 }
 
 .dropdown-item:hover,
 .active-dropdown-item {
-  background-color: rgba(113, 27, 60, 0.05);
-  color: #711b3c !important;
+  background-color: rgba(185, 35, 42, 0.05); /* Soft Chilli Red bg */
+  color: #B9232A !important; /* Updated to Logo Chilli Red */
   font-weight: 700;
   padding-left: 25px; /* Slight indent on hover/active */
 }
 
 /* Premium Call to Action Button */
 .btn-quote {
-  background-color: #711b3c;
+  background-color: #B9232A; /* Updated button bg to Chilli Red */
   color: white;
   border-radius: 30px;
   padding: 8px 24px;
   font-weight: 600;
-  border: 2px solid #711b3c;
+  border: 2px solid #B9232A;
   transition: all 0.3s ease;
 }
 .btn-quote:hover {
   background-color: transparent;
-  color: #711b3c;
+  color: #B9232A;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(113, 27, 60, 0.2);
+  box-shadow: 0 4px 12px rgba(185, 35, 42, 0.2);
 }
 
 /* Mobile specific adjustments */
@@ -161,15 +161,15 @@
        ============================== */
 .breadcrumb-wrapper {
   background:
-    linear-gradient(rgba(113, 27, 60, 0.9), rgba(34, 34, 34, 0.95)), /* Maroon to Charcoal Gradient */
-    url("https://images.unsplash.com/photo-1596040033229-a9821ebd058d?q=80&w=2000&auto=format&fit=crop")
-      center center / cover no-repeat fixed;
+    linear-gradient(rgba(76, 60, 48, 0.9), rgba(34, 34, 34, 0.95)), /* Dark Brown to Charcoal Gradient */
+    url("assets/images/breadcrumb-bg.jpg")
+      center center / cover no-repeat fixed; /* Replaced unavailable URL */
   padding: 100px 0 80px 0;
   text-align: center;
   color: #ffffff;
   position: relative;
   margin-top: 0;
-  border-bottom: 4px solid #711b3c; /* Maroon border at bottom for premium feel */
+  border-bottom: 4px solid #DF9B2A; /* Updated bottom border to Turmeric Yellow for premium feel */
 }
 
 .breadcrumb-title {
@@ -210,8 +210,8 @@
 }
 
 .custom-breadcrumb li a:hover {
-  color: #ffffff;
-  text-shadow: 0 0 10px rgba(255,255,255,0.3);
+  color: #DF9B2A; /* Updated breadcrumb hover to Turmeric Yellow */
+  text-shadow: 0 0 10px rgba(223, 155, 42, 0.3);
 }
 
 .custom-breadcrumb li i {
@@ -226,7 +226,7 @@
 }
 
 .custom-breadcrumb li.active {
-  color: #ffffff;
+  color: #DF9B2A; /* Updated active breadcrumb to Turmeric Yellow */
   font-weight: 700;
 }
 
@@ -257,7 +257,7 @@
 }
 
 .custom-footer {
-  background-color: #151515;
+  background-color: #1A1512; /* Slightly darker than logo brown for footer background */
   color: #e0e0e0;
   font-family: "Inter", sans-serif;
 }
@@ -278,7 +278,7 @@
   bottom: 0;
   width: 45px;
   height: 3px;
-  background-color: #711b3c; /* Brand Maroon */
+  background-color: #B9232A; /* Updated underline to Chilli Red */
   border-radius: 2px;
 }
 
@@ -300,15 +300,15 @@
 }
 
 .footer-links a:hover {
-  color: #ffffff !important;
+  color: #DF9B2A !important; /* Updated link hover to Turmeric Yellow */
   transform: translateX(5px);
 }
 
 .footer-contact-icon {
   width: 35px;
   height: 35px;
-  background-color: rgba(113, 27, 60, 0.15); /* Soft maroon bg */
-  color: #df6e97; /* Lighter maroon for dark bg contrast */
+  background-color: rgba(185, 35, 42, 0.15); /* Soft Chilli Red bg */
+  color: #B9232A; /* Updated icon color to Chilli Red */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -333,6 +333,7 @@
 .footer-social a:hover {
   transform: translateY(-3px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  color: #DF9B2A; /* Highlight social icons on hover with Turmeric Yellow */
 }
 
 .floating-contact {
@@ -375,13 +376,13 @@
   background-color: #20b858;
 }
 
-/* Phone Specific Styling (Using Brand Maroon) */
+/* Phone Specific Styling (Using Brand Leaf Green) */
 .float-phone {
-  background-color: #711b3c;
+  background-color: #576A3D; /* Updated to Leaf Green */
 }
 
 .float-phone:hover {
-  background-color: #5a152f;
+  background-color: #43542d;
 }
 
 /* Optional Pulse Animation for WhatsApp to grab attention */

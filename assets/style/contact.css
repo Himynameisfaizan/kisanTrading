@@ -1,12 +1,12 @@
 :root {
   /* Brand Theme Colors */
-  --primary-green: #212529;
-  --primary-green-dark: #222222;
-  --accent-orange: #e67e22;
-  --accent-orange-dark: #d35400;
+  --primary-green: #4C3C30; /* Updated to Logo Dark Brown */
+  --primary-green-dark: #3a2c22;
+  --accent-orange: #B9232A; /* Updated to Logo Chilli Red for forms/contacts */
+  --accent-orange-dark: #8c1a1f;
   
   /* Background & Text Colors */
-  --bg-light: #f9fafb;
+  --bg-light: #FAFAFA;
   --text-dark: #1a1a1a;
   --text-muted: #666666;
   --border-color: #e5e7eb;
@@ -74,14 +74,14 @@
 .info-card:hover {
   transform: translateX(10px);
   background: #ffffff;
-  box-shadow: 0 10px 30px rgba(43, 94, 44, 0.08); /* Slight green shadow */
+  box-shadow: 0 10px 30px rgba(76, 60, 48, 0.08); /* Soft Dark Brown shadow */
   border-color: var(--primary-green);
 }
 
 .info-icon {
   width: 55px;
   height: 55px;
-  background: rgba(43, 94, 44, 0.1);
+  background: rgba(76, 60, 48, 0.1);
   color: var(--primary-green);
   border-radius: 50%;
   display: flex;
@@ -96,7 +96,7 @@
 .info-card:hover .info-icon {
   background: var(--primary-green);
   color: #ffffff;
-  box-shadow: 0 5px 15px rgba(43, 94, 44, 0.2);
+  box-shadow: 0 5px 15px rgba(76, 60, 48, 0.2);
 }
 
 .info-content h4 {
@@ -179,7 +179,7 @@
 .form-select:focus {
   background: #ffffff;
   border-color: var(--accent-orange);
-  box-shadow: 0 0 0 4px rgba(230, 126, 34, 0.15); /* Orange glow on focus */
+  box-shadow: 0 0 0 4px rgba(185, 35, 42, 0.15); /* Soft Chilli Red glow on focus */
 }
 
 textarea.form-control {
@@ -198,15 +198,15 @@ textarea.form-control {
   cursor: pointer;
   width: 100%;
   transition: all 0.3s ease;
-  box-shadow: 0 6px 20px rgba(43, 94, 44, 0.25);
+  box-shadow: 0 6px 20px rgba(76, 60, 48, 0.25);
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
 .btn-submit:hover {
-  background: var(--accent-orange); /* Hover color changes to Orange */
+  background: var(--accent-orange); /* Hover color changes to Red */
   transform: translateY(-3px);
-  box-shadow: 0 10px 25px rgba(230, 126, 34, 0.3);
+  box-shadow: 0 10px 25px rgba(185, 35, 42, 0.3);
 }
 
 /* ==============================

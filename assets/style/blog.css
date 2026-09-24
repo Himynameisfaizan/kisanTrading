@@ -1,7 +1,7 @@
 :root {
-  --primary-green: #2b5e2c;
-  --accent-orange: #e67e22;
-  --bg-light: #f9fafb;
+  --primary-green: #4C3C30; /* Updated to Logo Dark Brown */
+  --accent-orange: #DF9B2A; /* Updated to Logo Turmeric Yellow */
+  --bg-light: #FAFAFA;
   --text-dark: #1a1a1a;
   --text-muted: #666666;
 }
@@ -253,7 +253,7 @@
 .premium-quote::before {
   content: "\201C";
   font-size: 80px;
-  color: rgba(230, 126, 34, 0.1);
+  color: rgba(223, 155, 42, 0.1); /* Soft Turmeric Yellow */
   position: absolute;
   top: -10px;
   left: 20px;

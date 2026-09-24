@@ -1,7 +1,7 @@
 :root {
-  --primary-green: #2b5e2c;
-  --accent-orange: #e67e22;
-  --bg-light: #f9fafb;
+  --primary-green: #4C3C30; /* Updated to Logo Dark Brown */
+  --accent-orange: #DF9B2A; /* Updated to Logo Turmeric Yellow */
+  --bg-light: #FAFAFA;
   --text-dark: #1a1a1a;
   --text-muted: #666666;
 }
@@ -51,7 +51,7 @@
   background: var(--primary-green);
   color: #ffffff;
   border-color: var(--primary-green);
-  box-shadow: 0 5px 15px rgba(43, 94, 44, 0.2);
+  box-shadow: 0 5px 15px rgba(76, 60, 48, 0.2);
 }
 
 /* ==============================
@@ -86,7 +86,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(43, 94, 44, 0.8); /* Dark Green transparent overlay */
+  background: rgba(76, 60, 48, 0.8); /* Dark Brown transparent overlay */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -216,13 +216,13 @@
   color: #ffffff;
   border-color: var(--accent-orange);
   transform: translateY(-3px);
-  box-shadow: 0 5px 15px rgba(230, 126, 34, 0.3);
+  box-shadow: 0 5px 15px rgba(223, 155, 42, 0.3);
 }
 .k2k-pagination li.active a {
   background: var(--primary-green);
   color: #ffffff;
   border-color: var(--primary-green);
-  box-shadow: 0 5px 15px rgba(43, 94, 44, 0.3);
+  box-shadow: 0 5px 15px rgba(76, 60, 48, 0.3);
 }
 .k2k-pagination li.next a,
 .k2k-pagination li.prev a {
