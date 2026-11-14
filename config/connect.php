@@ -14,7 +14,7 @@ if ($local) {
     $username = 'root';
     $password = '';
     $dbName = 'kisantrading';
-    $site = "http://localhost/office_php_project/kisantrading/";
+    $site = "http://localhost/projects/kisantrading/";
 } else {
     $host = 'localhost';
     $username = 'u799879276_bhagirath_db';
